@@ -7,7 +7,7 @@ RUN apt-get update \
     && apt-get -y upgrade \
     && apt-get install -y \
     curl \
-    openjdk-9-jre-headless \
+    openjdk-9-jre-headless
 
 
 ENV JENKINS_REMOTING_VERSION 3.14
